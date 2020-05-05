@@ -176,7 +176,7 @@ acf_add_local_field_group(array(
             'id' => 'citation-wysiwyg',
           ),
           'tabs' => 'all',
-          'toolbar' => 'full',
+          'toolbar' => 'basic',
           'media_upload' => 1,
           'default_value' => '',
           'delay' => 0,

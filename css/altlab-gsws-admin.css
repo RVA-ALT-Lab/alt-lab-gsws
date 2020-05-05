@@ -2,18 +2,20 @@
     font-size: 2em;
 }
 
-#acf-editor-38 , #acf-editor-40, #acf-editor-38_ifr {
-	height: 120px !important;
+#description-wysiwyg iframe  {
+	height: 100px !important;
+	min-height: 100px !important;
 }
 
 #description-wysiwyg {
-	min-height: auto !important;
+	min-height: 120px !important;
 }
 
-#acf-editor-39, #acf-editor-41, #acf-editor-41_ifr {
+#citation-wysiwyg iframe {
 	height: 60px !important;
+    min-height: 60px !important;
 }
 
 #citation-wysiwyg {
-	min-height: auto !important;
+	min-height: 70px !important;
 }
