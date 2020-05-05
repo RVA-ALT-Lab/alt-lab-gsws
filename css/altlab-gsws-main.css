@@ -1,0 +1,31 @@
+.resources {
+	border: 1px solid #efefef;
+	padding: 20px;
+   margin-top: 30px;
+}
+
+.resources h2 {
+	  font-size: 2.2em;
+      font-weight: 200;
+      color: #666;
+      line-height: 1.5;
+	  margin-top: 10px;
+}
+
+.resources h3 {
+	font-size: 1.5em;
+    color: #666;
+    line-height: 1.1;
+	font-weight: 400;
+}
+
+.resource-description {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #efefef;
+	padding-bottom: 20px
+}
+
+.resource-description p {
+	margin-left: 0;
+	padding-left: 0;
+}

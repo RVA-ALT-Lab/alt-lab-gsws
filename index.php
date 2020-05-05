@@ -61,7 +61,7 @@ function gsws_resource_display_add($content){
             $resources .= '<a href="' . $resource_link . '"><h3 class="resource-title">'.$resource_title.'</h3></a>';
          }
          if($resource_description){
-            $resources .= '<p class="resource-description">'.$resource_description.'</p>';
+            $resources .= '<div class="resource-description">'.$resource_description.'</div>';
          }
          $resources .= '</div>';
     endwhile;
@@ -149,7 +149,7 @@ acf_add_local_field_group(array(
           'wrapper' => array(
             'width' => '100',
             'class' => '',
-            'id' => '',
+            'id' => 'description-wysiwyg',
           ),
           'default_value' => '',
           'tabs' => 'all',
@@ -167,8 +167,8 @@ acf_add_local_field_group(array(
           'conditional_logic' => 0,
           'wrapper' => array(
             'width' => '100',
-            'class' => '',
-            'id' => '',
+            'class' => 'short-wysiwyg',
+            'id' => 'citation-wysiwyg',
           ),
           'tabs' => 'all',
           'toolbar' => 'full',
