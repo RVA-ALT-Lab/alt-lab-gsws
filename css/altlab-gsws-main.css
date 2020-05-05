@@ -1,7 +1,7 @@
 .resources {
 	border: 1px solid #efefef;
 	padding: 20px;
-   margin-top: 30px;
+    margin-top: 30px;
 }
 
 .resources h2 {
@@ -12,6 +12,15 @@
 	  margin-top: 10px;
 }
 
+.single-resource {
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 30px;	
+}
+
+.single-resource:last-of-type {
+	border-bottom: 1px solid #fff;
+}
+
 .resources h3 {
 	font-size: 1.5em;
     color: #666;
@@ -20,8 +29,6 @@
 }
 
 .resource-description {
-	margin-bottom: 30px;
-	border-bottom: 1px solid #efefef;
 	padding-bottom: 20px
 }
 
